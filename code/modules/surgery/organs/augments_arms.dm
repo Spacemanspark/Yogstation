@@ -274,6 +274,15 @@
 		// This monster sanity check is a nice example of how bad input is.
 		Extend(choice)
 
+/obj/item/organ/cyberimp/arm/janitorial
+	name = "janitorial toolset implant"
+	desc = "A set of janitorial tools hidden behind a concealed panel on the user's arm"
+	contents = newlist(/obj/item/mop, /obj/item/soap, /obj/item/lightreplacer, /obj/item/holosign_creator, /obj/item/melee/flyswatter, /obj/item/reagent_containers/spray/cleaner)
+
+/obj/item/organ/cyberimp/arm/janitorial/l
+	zone = BODY_ZONE_L_ARM
+
+
 /obj/item/organ/cyberimp/arm/toolset/surgery
 	name = "surgical toolset implant"
 	desc = "A set of surgical tools hidden behind a concealed panel on the user's arm."
